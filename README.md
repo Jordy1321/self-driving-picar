@@ -18,3 +18,8 @@ numpy
 urllib.request
 requests
 time
+
+For traffic light detection on laptop or pc:
+Install yolov8 with pip3 install ultralytics
+Install pytorch with pip3 install pytorch or pip3 install torch torch-vision opencv-python
+Install labelme for labeling with pip3 install labelme
