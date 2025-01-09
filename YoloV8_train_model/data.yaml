@@ -1,0 +1,5 @@
+path: C:/Users/robin/Python/self-driving-picar/YoloV8_train_model
+train: images/train
+val: images/val
+nc: 4
+names: ["Red_Light", "Green_Light", "Yellow_Light","All_Light"]
