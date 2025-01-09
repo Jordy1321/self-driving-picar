@@ -26,4 +26,6 @@ For traffic light detection on laptop or pc:
 
 - Install labelme for labeling with pip3 install labelme
 
-- command for training: yolo task=detect mode=train data=path/to/dataset.yaml model=yolov8n.pt epochs=50 imgsz=640 (pas hierbij wel het path aan naar het correcte path)
+- command for training: yolo task=detect mode=train data=path/to/dataset.yaml model=yolov8n.pt epochs=50 imgsz=512 (pas hierbij wel het path aan naar het correcte path en epochs naar het nummer runs dat je wil testen)
+
+- voor testen met laptopcamera doe: pip install ultralytics opencv-python-headless en run dan Traffic_light_test_camera.py (pas het nummer in cv2.VideoCapture(...) aan om de juiste camera te pakken)
