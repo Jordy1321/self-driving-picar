@@ -20,7 +20,10 @@ requests
 time
 
 For traffic light detection on laptop or pc:
-Install yolov8 with pip3 install ultralytics
-Install pytorch with pip3 install pytorch or pip3 install torch torch-vision opencv-python
-Install labelme for labeling with pip3 install labelme
-command for training: yolo task=detect mode=train data=path/to/dataset.yaml model=yolov8n.pt epochs=50 imgsz=640 (pas hierbij wel het path aan naar het correcte path)
+- Install yolov8 with pip3 install ultralytics
+
+- Install pytorch with pip3 install pytorch or pip3 install torch torch-vision opencv-python (voor het installeren van torch en torchvision, check eerst de cuda versie die je hebt (je kunt nvidia-smi gebruiken en daar vind je het rechtsboven). En gebruik daarna de juiste versie. Ik heb het volgende gebruikt: pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124)
+
+- Install labelme for labeling with pip3 install labelme
+
+- command for training: yolo task=detect mode=train data=path/to/dataset.yaml model=yolov8n.pt epochs=50 imgsz=640 (pas hierbij wel het path aan naar het correcte path)
