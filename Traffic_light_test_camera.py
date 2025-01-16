@@ -5,7 +5,7 @@ import cv2
 model = YOLO(r"C:\Users\robin\Python\self-driving-picar\YoloV8_train_model\best.pt")
 
 # Open the laptop's camera (0 is usually the default camera ID)
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 
 if not cap.isOpened():
     print("Error: Could not open the camera.")
